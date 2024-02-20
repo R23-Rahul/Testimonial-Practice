@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.top-container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+
+}
+.container{
+    text-align: center;
+}
+.title{
+    font-size: xx-large;
+ font-weight: bold;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+   
+}
+.cd{
+    background-color: white;
+}
+.nishan{
+    justify-content: center;
+}
+.last-button{
+    background-color: rgb(165, 80, 207);
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font: bold;
+    color: white;
+    border-radius: 6px;
+   
+    margin: 12px;
+}
+.last-button:hover{
+    background-color: rgb(149, 52, 175);
+    transition: all 1s;
+}
+/* .small-conatainer{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 65vh;
+    width: 80vw;
+    background-color: white;
+
+
+} */
